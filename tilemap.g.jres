@@ -1,0 +1,31 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "수준1": {
+        "id": "수준1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDA5MDkwOTA5MDkwOTA5MDMwMzAzMDMwMzAzMDMwMzAyMDYwNjA2MDYwNjA2MDUwNTA1MDUwNTA1MDUwNTA1MDQwNjA2MDYwNjA2MDYwNTA2MDUwNTA1MDUwNTA1MDUwNDA3MDcwNzA3MDYwOTA5MDkwOTA1MDUwNTA1MDUwNTA0MDcwNzA3MDcwNzA2MDYwNjA1MDUwNTA1MDUwNTA1MDQwNjA2MDcwNzA2MDYwNTA1MDUwNTA1MDUwNTA1MDUwNDA2MDcwNjA2MDYwNjA2MDEwMTAxMDEwNTA1MDUwNTA0MDYwNzA3MDYwNjA5MDYwNjA2MDEwMTAxMDUwNTA1MDQwNjA3MDcwNjA2MDYwNjA2MDYwNjAxMDEwMTA1MDUwNDA4MDgwNzA3MDcwNzA3MDcwNzA3MDEwMTAxMDUwNTA0MDYwODA2MDYwNjA3MDYwNjA2MDEwMTAxMDEwNTA1MDQwNjA4MDYwNjA2MDYwMTAxMDEwMTAxMDEwMTAxMDUwNDA4MDYwNjA2MDEwMTAxMDEwMTAxMDEwMTAxMDEwNTA0MDYwNjBhMGEwYTBhMGEwYTBhMGEwYTBhMGEwYTBhMDQwYTBhMGEwYTBhMGEwYTBhMGEwYTBhMGEwYTBhMGEwNDBhMGEwYTBhMGEwYTBhMGEwYTBhMGEwYTBhMGEwYTBhMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.castle.tileGrass2",
+            "sprites.castle.tilePath3",
+            "sprites.castle.tilePath2",
+            "sprites.castle.tilePath6",
+            "sprites.castle.tilePath5",
+            "sprites.castle.tileDarkGrass2",
+            "sprites.castle.tileDarkGrass3",
+            "sprites.builtin.forestTiles0",
+            "sprites.castle.tileDarkGrass1",
+            "sprites.castle.tileGrass3"
+        ],
+        "displayName": "tristate_01"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
