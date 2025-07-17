@@ -1,8 +1,8 @@
+sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Player, function (sprite, otherSprite) {
+	
+})
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.y += 5
-})
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    sprites.destroy(mySprite)
 })
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.y += -5
@@ -13,11 +13,12 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.x += -5
 })
-let myEnemy: Sprite = null
+let projectiles: Sprite = null
 let mySprite: Sprite = null
 mySprite.setBounceOnWall(true)
-myEnemy.follow(mySprite)
-myEnemy = sprites.create(img`
+projectiles.follow(mySprite)
+projectiles = sprites.create(assets.image`bomb`, SpriteKind.Projectile)
+let mySprite2 = sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -34,6 +35,6 @@ myEnemy = sprites.create(img`
     . b 5 5 b c d d 5 5 5 5 5 d b . 
     b b c c c d d d d 5 5 5 b b . . 
     . . . c c c c c c c c b b . . . 
-    `, SpriteKind.Enemy)
+    `, SpriteKind.Player)
 mySprite = sprites.create(assets.image`player`, SpriteKind.Player)
 tiles.setCurrentTilemap(tilemap`tristate_01`)
